@@ -1,0 +1,80 @@
+h1 {
+    color: green;
+    background-color: lightseagreen;
+}
+
+.imageCarousel>img {
+    width: 200px;
+    opacity: 1;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+
+.highlight {
+    color: white;
+    background-color: blue;
+}
+
+.whole {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+.container {
+    border: 1px solid grey;
+    display: flex;
+    margin: auto;
+}
+
+#prev-button,
+#next-button,
+#btn-change {
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.tab2,
+.imageCarousel {
+    flex: 50%;
+}
+
+.tab0 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab0 img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    padding: 30px;
+    margin: 10px;
+}
+
+input[type=button] {
+    background-color: peru;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
